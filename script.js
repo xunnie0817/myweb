@@ -78,7 +78,7 @@ function product2() {
     fr.textContent='';
     fr.textContent = product2content;
     const frimgs=[
-        {img:'http://www.elit.com.tw/i03-4-1.jpg'},
+        {img:'https://raw.githubusercontent.com/xunnie0817/myweb/refs/heads/main/1.jpg'},
         {img:'http://www.elit.com.tw/i03-4-2.jpg'}
     ]
     frimgs.forEach((frimg)=>{
