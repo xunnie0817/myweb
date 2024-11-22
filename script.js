@@ -79,7 +79,7 @@ function product2() {
     fr.textContent = product2content;
     const frimgs=[
         {img:'https://raw.githubusercontent.com/xunnie0817/myweb/refs/heads/main/1.jpg'},
-        {img:'http://www.elit.com.tw/i03-4-2.jpg'}
+        {img:'https://raw.githubusercontent.com/xunnie0817/myweb/refs/heads/main/2.jpg'}
     ]
     frimgs.forEach((frimg)=>{
         const img=document.createElement('img');
@@ -92,7 +92,7 @@ function product2() {
 function product3() {
     fr.textContent='';
     const img=document.createElement('img');
-    img.src='http://www.elit.com.tw/i03-2-1-D.jpg';
+    img.src='https://raw.githubusercontent.com/xunnie0817/myweb/refs/heads/main/3.jpg';
     img.className='imgs';
     document.getElementById('fr').appendChild(img);
 }
@@ -101,7 +101,7 @@ function product4() {
     fr.textContent='';
     fr.textContent = product4content;
     const img=document.createElement('img');
-    img.src='http://www.elit.com.tw/i03-6-1-D.jpg';
+    img.src='https://raw.githubusercontent.com/xunnie0817/myweb/refs/heads/main/4.jpg';
     img.className='imgs';
     document.getElementById('fr').appendChild(img);
 }
@@ -109,9 +109,9 @@ function product4() {
 function product5() {
     fr.textContent='';
     const frimgs=[
-        {img:'http://www.elit.com.tw/i03-3-1.jpg'},
-        {img:'http://www.elit.com.tw/i03-3-2.jpg'},
-        {img:'http://www.elit.com.tw/i03-3-3.jpg'}
+        {img:'https://raw.githubusercontent.com/xunnie0817/myweb/refs/heads/main/5.jpg'},
+        {img:'https://raw.githubusercontent.com/xunnie0817/myweb/refs/heads/main/6.jpg'},
+        {img:'https://raw.githubusercontent.com/xunnie0817/myweb/refs/heads/main/7.jpg'}
     ]
     frimgs.forEach((frimg)=>{
         const img=document.createElement('img');
